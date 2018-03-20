@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <script src="../eventListeners/eventListeners.js" type="text/javascript"></script>
+        <link href="../css/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <title>Our Story</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+<div class = "container">
+    
+<div id="wrapper">
+    
+<header class= "pg2h">
+    
+<form id="language">
+    
+  <select name="language">
+    <option value="English" selected>English</option>
+    <option value="Spanish">Spanish</option>
+    <option value="French" >French</option>
+    <option value="German">German</option>
+  </select>
+  </form>
+<img src="../website images/website images/final logo.png" alt="company logo"/>
+
+<h3 id="h3p4"> Change you can wear</h3>
+</header>
+</div>
+
+<nav class="navp2">
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Our Products</a></li>
+<li><a href="aboutus.html">Our Story</a></li>
+<li><a href="contactus.html">Contact us</a></li>
+</ul>
+</nav>
+
+
+
+<main>
+<article>
+
+
+
+<h2 class="articlewrite"> Our Story</h2>
+<p id="articlep" onMouseOver="mouseOver();">Lorem ipsum pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros euerat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus </p>
+</article>
+<div id="click4">
+<h4>Click Image</h4>
+</div>
+<img id="clothesmaker" onclick="updateImgAbout()" src="../website images/website images/slider images/We-Made-Your-Clothes-Fashion-Revloution.jpg" alt="Indian clothes maker"/>
+     
+<script>
+function fairIcon(){
+ window.alert("Verified Trademark");
+}
+</script>
+</main>
+<div class="icons">
+    
+    <img class="inst"  src="../website images/website images/social media images/1481303268_social_media_logo_instagram.png" alt="Instagram"/>
+     
+<img class="twit"  src="../website images/website images/social media images/1481304183_social_media_logo_twitter.png" alt="Twitter"/>
+     
+<img class="snap" src="../website images/website images/social media images/1481303303_social_media_logo_snapchat.png" alt="Snapchat"/>
+      
+<img class="pin"  src="../website images/website images/social media images/1481303280_social_media_logo_pinterest.png" alt="Pinterest"/>
+     
+<img class="fair"  src="../website images/website images/social media images/Fair_Trade_Certified_Logo-CMYK.png"  onClick="fairIcon()" alt="fair trade logo" >
+
+</div>
+
+<a class="button" href="https://www.facebook.com/Apperal-X-674643362718900/" target="_blank">Coming soon!</a>
+
+             
+          
+<footer class="footerp4">
+<h5> Copyright @ Ni Design</h5>
+</footer>
+</div>
+<script>
+ 
+
+function mouseOver(){
+        document.getElementById ("articlep").style.color="#000080";
+}
+function mouseOut(){
+    document.getElementById ("articlep").style.color="black";
+}
+ document.getElementById ("articlep").addEventListener("mouseover", mouseOver);
+document.getElementById("articlep").addEventListener("mouseout", mouseOut);
+
+    
+ </script>
+ 
+</body>
+
+</html>

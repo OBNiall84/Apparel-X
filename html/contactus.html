@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <script src="../eventListeners/eventListeners.js" type="text/javascript"></script>
+        <link href="../css/stylesheet.css" rel="stylesheet" type="text/css"/>
+        
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+<div id="wrapper">
+<header class= "pg2h">
+<form id="language">
+  <select name="language">
+    <option value="English" selected>English</option>
+    <option value="Spanish">Spanish</option>
+    <option value="French" >French</option>
+    <option value="German">German</option>
+  </select>
+    
+  </form>
+<img src="../website images/website images/final logo.png" alt="company logo"/>
+
+<h3 id="h3p3"> Change you can wear</h3>
+</header>
+</div>
+
+<nav class="navp2">
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+<ul>
+  <li><a href="index.html">Home</a></li>
+<li><a href="products.html">Our Products</a></li>
+<li><a href="aboutus.html">Our Story</a></li>
+<li><a href="contactus.html">Contact us</a></li>
+</ul>
+</nav>
+
+<div id="mainp3">
+
+
+
+
+<h1 class="talktous">GOT A QUESTION, WE WANNA HEAR IT</h1>
+
+<div class="form-style-8">
+  <h4>Contact Us</h4>
+  <form id="myForm" name="myForm" novalidate> 
+      <input type="text" id="nameInput" placeholder="Full Name" value="" /> 
+      <input type="email" id="emailInput" placeholder="Email" value="" />
+      <input type="url" id="countryInput" placeholder="Country" value="" />
+    <textarea placeholder="Message" id="messageInput" onkeyup="adjust_textarea(this)"></textarea>
+    <input type="submit" value="Send Message" onClick="checkFields()"/> 
+  </form>
+</div>
+
+
+<video id="video1" width="320" height="240" onmouseover="playVid()" onmouseout="pauseVid()">
+    <source src="../website images/website images/video/The Rise of Fair Trade Certification and its Impact.mp4" type="video/mp4">
+    
+</video>
+    
+
+
+  <p id= "videoW" onmouseover="mouseOver();"> Please look at this video, it may answer your questions </p>
+ </div>
+
+<img class="pose"  src="../website images/website images/marquee_bkg images/woman-head-silhouette-clip-art-woman-silhouette-02-clipart-idSGfv-clipart.png" alt="Model pose"/>
+     
+<img class="camera" src="../website images/website images/marquee_bkg images/photographer.png" alt="Photographer image"/>
+   
+
+
+<footer>
+<h5> Copyright @ Ni Design</h5>
+</footer>
+ 
+ <script>
+ 
+
+function mouseOver(){
+        document.getElementById ("videoW").style.color="red";
+}
+function mouseOut(){
+    document.getElementById ("videoW").style.color="black";
+}
+ document.getElementById ("videoW").addEventListener("mouseover", mouseOver);
+document.getElementById("videoW").addEventListener("mouseout", mouseOut);
+ </script>
+ 
+ <script> 
+var myVideo=document.getElementById ("video1"); 
+
+function playVid()
+{ 
+	myVideo.play();
+}
+ 
+  function pauseVid() { 
+  if (myVideo.play)
+    myVideo.pause(); 
+} 
+
+
+</script> 
+
+
+
+</body>
+
+</html>

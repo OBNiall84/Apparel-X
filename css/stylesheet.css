@@ -1,0 +1,561 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-Feb-2017, 15:47:58
+    Author     : niallobrien
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+container{
+	width:100%;
+	height:auto;
+	border:5px;
+	border-color:#000000;
+	margin:0;	
+	}
+header {
+	height:250px;
+    color: white;
+    background-color:#c0c0c0;
+    clear: left;
+    text-align: center;
+	font-family:papyrus, script,Lucida Sans Typewriter;
+}
+
+#language{
+	
+	float:right;
+	
+	}
+	
+	
+		
+		
+	
+nav ul{
+	list-style-type: none;
+    
+	overflow:hidden;
+	background-color:#000000;
+	background-size:auto;
+	
+	}
+	li{
+		float:left;
+		
+		}
+	 a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding:16px 20px ;
+    text-decoration: none;
+	
+
+			}
+                        
+	 a:hover{
+		color:#000080;
+		}
+	#mainp1	{
+	background:url("website images/website images/marquee_bkg images/sky 2.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	 
+	background-position:60% 60% ;
+		}
+		
+                	
+	
+    
+			
+		footer{
+	padding: 1em;
+    color: white;
+    background-color:#000000;
+    clear: left;
+    text-align: center;	
+			}
+			h3{
+			font-family:papyrus, script,Lucida Sans Typewriter;
+			font-size:20px;
+			font-style:italic;
+			color:#000080;
+			/* Page two below*/
+			}
+	.footerp2{
+	padding: 1em;
+    color: white;
+    background-color:#000000;
+	background-position:center;
+    clear: left;
+    text-align: center;	
+	}
+	.pg2h{
+		padding: 1em;
+    color: white;
+    background-color:#c0c0c0;
+    clear: left;
+    text-align: center;
+		}
+		.navp2{
+list-style-type: none;
+    padding: 10;
+	overflow:hidden;
+	background-color:#000000;
+	background-size:auto;
+	}
+	li{
+		float:left;
+		
+		}
+	 a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding:16px 20px ;
+    text-decoration: none;
+	
+			}
+		.mainp2{
+	
+	background-color:#000000;
+	background-repeat:round;
+	background-size:100%;
+	border: 2px #00000;
+		}
+		.h3p2{
+			
+			
+			font-family:papyrus, script,Lucida Sans Typewriter;
+			font-size:20px;
+			font-style:italic;
+			color:#000080;
+			}
+
+	#click2{
+		font-family:papyrus, script,Lucida Sans Typewriter;
+		font:10px;
+		top:400px;
+		
+		}
+			
+		h2{
+			position:relative;
+			top:600px;
+			
+			}	
+			
+	.mySlides1{
+		width:100%;
+	}
+	.mySlides2{
+		width:100%;
+		
+	}
+		
+			
+		.mySlides3{
+		width:100%;
+			}
+		
+		.mySlides4{
+		Width:100%;
+				}	
+		.mySlides5{
+		width:100%;
+					}
+		.mySlides6{
+		width:100%;
+				}
+		.mySlides7{
+			width:100%;
+			}	
+		.mySlides8{
+		width:100%;
+				}			
+				/*Page three below...................................................*/
+				
+		input[type=text] 		{
+    width: 130px;
+	height:20px;
+    box-sizing:border-box;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    font-size: 10px;
+    background-color:white;
+    left:22.5%;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	
+				}
+	input[type=text]:focus {
+    width: 100%;
+}			
+	.talktous{
+		text-align:center;
+		font-style:italic;
+		font-family:inherit;
+		font-size:20px;
+		text-decoration:underline;
+		text-decoration-color:000080;
+		font-family: papyrus, script,Lucida Sans Typewriter;
+		
+		}		
+
+	.form-style-8{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+    background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #797979;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+    box-sizing: border-box;
+    webkit-box-sizing: border-box;
+    moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+.form-style-8 textarea{
+    resize:none;
+    overflow: hidden;
+}
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]{
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+   
+   
+    background-color: #000080;
+    border: 1px solid #c0c0c0;
+    display: inline-block;
+    
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+
+
+		video{
+			position:relative;
+			left:37%;
+			}
+
+			
+			#videoW
+			{
+				
+				text-align:center;
+				font-family:papyrus, script,Lucida Sans Typewriter;
+				}
+			
+		.lowerimages{
+			width:100%;
+			}
+				.pose{
+			float: left;
+			width:300px;
+			height:400px;
+			}
+			
+			.camera{
+				float: right;
+			width:450px;
+			height:450px;
+			
+				}
+				
+				
+	h5{
+	
+	padding: 1em;
+    color: white;
+    background-color:#000000;
+	background-position:center;
+    clear: left;
+    text-align: center;	
+						
+	}
+						
+					
+			/*..................Page 4...................................................*/
+                        .button {
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  left:380px;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+.button {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+                           
+					
+                        
+			
+			#clothesmaker{
+				width:100%;
+				}
+			.icons{
+				width:100%;
+				display:inline;
+				
+				}
+				.bodypg4{
+				font-family:papyrus, script,Lucida Sans Typewriter;
+					}
+				
+			.article{
+				float:left;
+				padding:10px;
+				
+				width: 300px;
+   				 height: 100px;
+   				 box-sizing: border-box;
+				 background-color:#c0c0c0;
+				 
+			}
+				 
+				 .articlep{
+				padding-left:50px;
+				padding-right:50px;
+				text-align:center;
+				
+				
+				}
+				
+				.articlewrite{
+					position:relative;
+					top:10px;
+					}
+					 
+					 #click4{
+						 position:relative;
+						 width:100%;
+						top:60px;
+						 
+						 
+						 }
+					 
+			.ae{
+				position:relative;
+				top:400px;
+				width:100%;
+				height:auto;
+				}
+			
+		
+			.a4{
+				position:relative;
+				
+			text-decoration:underline;
+				padding:10px;
+				text-align:center;
+				}
+				
+				.ap2{
+				padding-left:50px;
+				padding-right:50px;
+				text-align:center;
+				
+				}
+						
+				
+				.ap3{
+					position:relative;
+					padding:10px;
+					padding-left:50px;
+				padding-right:50px;
+				text-align:left;
+				
+				}
+				
+				
+				
+			.pin{
+				
+				height:35px;
+				width:35px;
+				left:480px;
+				}
+				.pin:hover{
+					background-color:#000080;
+					}
+				.snap{
+					
+				height:35px;
+				width:35px;	
+				left:420px;
+					}
+					.snap:hover{
+					background-color:#000080;	
+						}
+				.twit{
+					
+				height:35px;
+				width:35px;	
+				left:360px;
+					}
+					.twit:hover{
+					background-color:#000080;
+						}
+					
+				.inst {
+				
+				height:35px;
+				width:35px;	
+				left:300px;
+				
+				}
+				.inst:hover{
+					background-color:#000080;
+					}
+				.fair {
+					
+				height:35px;
+				width:35px;	
+				left: 540px;
+					}
+				.fair:hover{
+					background-color:#000080;
+					}
+					
+					.cpic{
+						float:left;
+						
+						
+						width:auto;
+						
+						
+						
+						}
+						.wool {
+							float:right;
+							}
+	.footerp4{
+		
+		font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace	;
+		}
+		.navp2{
+			font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace	;
+			}
+			
+			
+			@media screen and (max-width:998px){
+				.container{
+					width:100%;
+					}
+			}
+					
+					@media screen and (max-width:640px){
+				container{
+					width:100%;
+					
+					}
+					
+					#video1 {
+						width:100%;
+					}
+						
+						#mainp3 {
+						width:50%;
+							
+							}
+							.camera{
+								width:50%;
+								}
+					}
+					.pose{
+						
+						width:20%;
+						}
+							
+				@media screen and (max-width:320px){
+				.container{
+					width:320%;
+				}
+				}
